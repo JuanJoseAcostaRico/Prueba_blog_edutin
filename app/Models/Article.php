@@ -26,4 +26,7 @@ class Article extends Model
     public function category(){
         return $this->belongsTo(Category::class);
     }
+
+    //nuevo cambio en article.php
+
 }
